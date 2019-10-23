@@ -7,7 +7,7 @@ h1 {
   text-align: center;
   text-shadow: 0 0 10px #000;
   text-transform: uppercase;
-  color: gray;
+  color: lightgray;
   font-size: 40px;
   font-family: monospace;
 }
@@ -17,7 +17,7 @@ img {
 }
 
 h2 {
-  background: orange;
+  background: brown;
   color: #fff;
   border-radius: 10px;
   padding: 10px 20px;
