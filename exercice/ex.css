@@ -1,0 +1,33 @@
+body {
+  background: gray;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 4px #000;
+  text-transform: uppercase;
+  font-style: monospace;
+  color: gray;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  background: brown;
+}
+
+.groupe {
+  align-items: center;
+  display: flex;
+}
+
+.img {
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
