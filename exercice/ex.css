@@ -21,10 +21,20 @@ h2 {
   color: #fff;
   border-radius: 10px;
   padding: 10px 20px;
-  margin: 0px;
+  margin-bottom: 0px;
 }
 
+h2:hover {
+  background: #792020;
+}
 
+li:hover {
+  color: #587e54;
+}
+
+h1:hover {
+  color: #fff;
+}
 
 .groupe {
   align-items: center;
