@@ -5,9 +5,11 @@ body {
 
 h1 {
   text-align: center;
-  text-shadow: 0 0 10px orange;
+  text-shadow: 0 0 10px #000;
   text-transform: uppercase;
   color: gray;
+  font-size: 40px;
+  font-family: monospace;
 }
 
 img {
