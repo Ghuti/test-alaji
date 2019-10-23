@@ -17,11 +17,18 @@ img {
 
 h2 {
   background: brown;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
+
+
 
 .groupe {
   align-items: center;
   display: flex;
+  font-family: sans-sans-serif;
+  flex-direction: column;
 }
 
 .img {
