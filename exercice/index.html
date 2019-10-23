@@ -6,7 +6,7 @@
       <link rel="shortcut icon" href="https://www.alaji.fr/wp-content/uploads/alaji72x79.png">
       <link type="text/css" rel="stylesheet" href="ex.css"/>
   </head>
-  <body>
+  <body id="teste">
     <h1>Titre professionnel développeur web</h1>
     <div class="img">
       <img src="https://www.alaji.fr/wp-content/uploads/crowd-participating-at-event_4460x4460.jpg" alt="coucou">
@@ -28,5 +28,24 @@
         <li>David</li>
       </ul>
     </div>
+
+    <script>
+		var b3 = document.getElementById("b3");
+		var test = document.getElementById("test");
+		var teste = document.getElementById("teste");
+
+		blop = 0;
+		b3 = function() {
+			if (blop == 0) {
+				teste.style.background = "#003A7C"; //#003A7C
+				blop = blop += 1;
+			}
+			else {
+				teste.style.background = "#3FC4C0"; //#fff
+				blop = blop -= 1;
+			}
+		}
+    setInterval(b3, 1000);
+    </script>
   </body>
 </html>
