@@ -21,6 +21,7 @@ h2 {
   color: #fff;
   border-radius: 10px;
   padding: 10px 20px;
+  margin: 0px;
 }
 
 
@@ -28,8 +29,14 @@ h2 {
 .groupe {
   align-items: center;
   display: flex;
-  font-family: sans-sans-serif;
+  font-family: sans-serif;
   flex-direction: column;
+  font-weight: bold;
+}
+
+ul {
+  font-size: 20px;
+  color: honeydew;
 }
 
 .img {
